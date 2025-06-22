@@ -9,7 +9,7 @@ int main() {
     int count = 0;
     int x, y, n;
     cin >> x >> y >> n;
-    bool md[241][241];
+    bool md[241][241] = {};
     for (int i = 1; i <= n; i++) {
         int a, b, c, d;
         cin >> a >> b >> c >> d;
